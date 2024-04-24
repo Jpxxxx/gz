@@ -1,0 +1,140 @@
+body {
+    /* background-size: 100% 100%; */
+    
+    /* transform: rotate(90deg); */
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#J_wrapper {
+    background-size: 100% 100%;
+    background-image: url(./image/background2.png);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainImg {
+    width: 50%;
+}
+.main{
+    width: 80%;
+    display: flex;
+    padding-bottom: 2rem;
+}
+.tap{
+    max-width: 200px;
+}
+.keyList{
+    flex: 1;
+}
+.keyList ul{
+    width: 100%;
+    height: 100%;
+}
+.tap img{
+    width: 100%;
+}
+.tap li{
+    font-size: 0;
+    background-size: 100% 100%;
+    /* padding: 4% 0; */
+    background-image: url(./image/切换边框2.png);
+}
+.tap li+li{
+    margin-top: 10%;
+}
+
+.layui-tab{
+    width: 100%;
+    display: flex;
+}
+.layui-tab .layui-tab-title{
+    height: auto;
+}
+
+.layui-tab .layui-tab-title li{
+    line-height: 0;
+    font-size: 0;
+    padding: 0;
+    display: block;
+    width: 19rem;
+    padding: 2% 0;
+    background-image: url(./image/切换边框2.png);
+    background-size: 100% 100%;
+}
+.layui-unselect{
+    display: none;
+}
+.layui-tab .layui-tab-title li + li{
+    margin-top: 1rem;
+}
+.layui-tab .layui-tab-title li::after{
+    display: none;
+}
+.layui-tab .layui-tab-title li img{
+    width: 100%;
+}
+.layui-tab  .layui-tab-content{
+    padding: 0;
+    flex: auto;
+    margin-left: 4rem;
+    display: flex;
+}
+.layui-tab-item {
+    flex: 1;
+}
+.layui-tab  .layui-tab-content ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.layui-tab  .layui-tab-content ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+.layui-tab  .layui-tab-content ul li +li{
+    margin-top: 1rem;
+}
+.key{
+    width: 4rem;
+    height: 100%;
+    padding: 0 2rem;
+}
+.sanyin .key{
+    background-position: center;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    background-image: url(./image/btn1.png);
+}
+.fanyin .key{
+    background-position: center;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    background-image: url(./image/btn2.png);
+}
+.shanghuayin .key{
+    background-position: center;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    background-image: url(./image/btn3.png);
+}
+.xiahuayin .key{
+    background-position: center;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    background-image: url(./image/btn4.png);
+}
